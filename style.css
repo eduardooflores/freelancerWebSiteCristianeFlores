@@ -13,13 +13,14 @@ nav {
       align-items: center;
       display: flex;
       flex-direction: row;
-      gap: 100px;
+      gap: 50px;
+      width: 100%;
 }
 
-.social-icons, .logo, .nav-links {
+.social-icons, .logo, .nav-links-left, .nav-links-right {
       display: flex;
       align-items: center;
-      gap: 20px;
+      gap: 15px;
 }
 
 a {
