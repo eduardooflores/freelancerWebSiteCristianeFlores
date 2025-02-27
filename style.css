@@ -1,0 +1,23 @@
+* {
+      margin: 0px;
+      padding: 0px;
+}
+
+header > nav {
+      text-align: center;
+      justify-content: start;
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+      gap: 100px;
+}
+
+.social-icons, .logo, .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+}
+
+.social-icons {
+      padding-left: 150px;
+}
