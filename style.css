@@ -3,6 +3,10 @@
       padding: 0px;
 }
 
+header {
+      box-shadow: 1px 1px 15px 1px #3d485265;
+}
+
 header > nav {
       text-align: center;
       justify-content: start;
@@ -19,5 +23,5 @@ header > nav {
 }
 
 .social-icons {
-      padding-left: 150px;
+      padding-left: 130px;
 }
