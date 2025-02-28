@@ -24,6 +24,44 @@ nav {
       gap: 15px;
 }
 
+.nav-links-left > li {
+      position: relative;
+}
+
+.nav-links-right > li {
+      position: relative;
+}
+
+.nav-links-left > li > a::before {
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      left: 0;
+      width: 0%;
+      height: 3px;
+      background-color: #143D37;
+      transition: all .5s;
+}
+
+.nav-links-right > li > a::before {
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      left: 0;
+      width: 0%;
+      height: 3px;
+      background-color: #143D37;
+      transition: all .5s;
+}     
+
+.nav-links-left > li > a:hover::before {
+      width: 100%;
+}
+
+.nav-links-right > li > a:hover::before {
+      width: 100%;
+}
+
 a {
       text-decoration: none;
       color: rgba(49, 49, 49, 0.678);
