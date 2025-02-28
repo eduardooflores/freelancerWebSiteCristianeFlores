@@ -10,7 +10,7 @@ header {
 
 nav {
       text-align: center;
-      justify-content: space-around;
+      justify-content: start;
       align-items: center;
       display: flex;
       flex-direction: row;
@@ -18,21 +18,17 @@ nav {
       width: 100%;
 }
 
-.social-icons, .logo, .nav-links-left, .nav-links-right {
+.social-icons, .logo, .nav-links {
       display: flex;
       align-items: center;
       gap: 15px;
 }
 
-.nav-links-left > li {
+.nav-links > li {
       position: relative;
 }
 
-.nav-links-right > li {
-      position: relative;
-}
-
-.nav-links-left > li > a::before {
+.nav-links > li > a::before {
       content: '';
       position: absolute;
       bottom: -10px;
@@ -41,24 +37,9 @@ nav {
       height: 3px;
       background-color: #143D37;
       transition: all .2s;
-}
+}    
 
-.nav-links-right > li > a::before {
-      content: '';
-      position: absolute;
-      bottom: -10px;
-      left: 0;
-      width: 0%;
-      height: 3px;
-      background-color: #143D37;
-      transition: all .2s;
-}     
-
-.nav-links-left > li > a:hover::before {
-      width: 100%;
-}
-
-.nav-links-right > li > a:hover::before {
+.nav-links > li > a:hover::before {
       width: 100%;
 }
 
