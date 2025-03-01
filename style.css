@@ -25,6 +25,10 @@ nav {
       gap: 15px;
 }
 
+.social-icons {
+      font-size: 20px;
+}
+
 .nav-links > li {
       position: relative;
 }
